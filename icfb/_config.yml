@@ -1,0 +1,20 @@
+# Site settings
+title: International Christian Fellowship of Budapest
+email: info@icfbudapest.org
+facebook: https://www.facebook.com/groups/2231582506
+description: > # this means to ignore newlines until "baseurl:"
+  We are a community of university students and young professionals from many different nationalities and backgrounds who come together in the name of Jesus for worship, prayer, study, and service, as well as to encourage each other.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://icfbudapest.org" # the base hostname & protocol for your site
+
+# Colours
+colors:
+  brown: #b39169
+  turqoise: #69a9b2
+  blue: #696eb2
+  purple: #b2697e
+  pink: #ac69b2
+  green: #69b280
+
+# Build settings
+markdown: kramdown
