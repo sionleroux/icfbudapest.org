@@ -7,6 +7,7 @@
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-family: 'Open Sans', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -18,9 +19,11 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #696eb2;
 
-$brand-turq:      #69a9b2;
+$brand-turq:       #69a9b2;
 $brand-turq-light: lighten($brand-turq, 40%);
 $brand-turq-dark: darken($brand-turq, 25%);
+
+$brand-brown:      #b39169;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -55,3 +58,12 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.signup {
+    background-color: $brand-turq-light;
+    box-shadow: 0px 5px 10px #888888;
+    border-radius: 25px;
+    border: 5px solid #fff;
+    padding: 10px;
+    //TODO: design this to look like a bubble
+}

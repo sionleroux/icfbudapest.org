@@ -4,8 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  {% include signup.html %}
-  <p>TODO: intro text</p>
+  <div class="signup">
+    <h1>Join Us</h1>
+    {% include signup-form.html %}
+    <p>We'll send out a newsletter every week to tell you when and where we're meeting. It's our main form of communication, so sign up if you'd like to join.</p>
+  </div>
+
+  <h1>About Us</h1>
+  <p>{{ site.description }}</p>
 
 </div>
