@@ -225,12 +225,13 @@ form.signup {
     font-weight: 600;
 
     input {
+        background-color: $brand-color-light;
         width: 39%;
         height: 2em;
         padding: 0.5%;
         margin: 0.5%;
         font-size: 115%;
-        border-radius: 10px;
+        border-radius: 6px;
         border: 0;
         text-align: center;
         box-shadow: inset 2px 2px 5px #000;
@@ -238,6 +239,17 @@ form.signup {
         &[type=submit] {
             width: 15%;
             box-shadow: 0 0 0 #000;
+        }
+    }
+
+    @include media-query($on-palm) {
+        input {
+            width: 100%;
+            margin-top: $spacing-unit / 4;
+            margin-bottom: $spacing-unit / 4;
+            &[type=submit] {
+                width: 50%;
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     background-color: $brand-color-light;
     min-height: 56px;
@@ -31,6 +31,15 @@
         color: $grey-color-dark;
     }
 }
+@include media-query($on-palm) {
+    .site-title {
+        text-align: center;
+        .site-logo {
+            max-height: 100%;
+        }
+    }
+}
+
 
 .site-nav {
     float: right;
