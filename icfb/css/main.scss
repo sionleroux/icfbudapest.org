@@ -52,8 +52,7 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;
 
 form.signup {
@@ -65,7 +64,6 @@ form.signup {
     margin: 10px;
     margin-bottom: 30px;
     font-weight: 600;
-    //TODO: design this to look like a bubble
 
     input {
         width: 39%;
