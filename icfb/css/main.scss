@@ -17,13 +17,10 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #696eb2;
 
-$brand-turq:       #69a9b2;
-$brand-turq-light: lighten($brand-turq, 40%);
-$brand-turq-dark: darken($brand-turq, 25%);
-
-$brand-brown:      #b39169;
+$brand-color:       #69a9b2;
+$brand-color-light: lighten($brand-color, 40%);
+$brand-color-dark: darken($brand-color, 25%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -59,11 +56,31 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-.signup {
-    background-color: $brand-turq-light;
-    box-shadow: 0px 5px 10px #888888;
+form.signup {
+    background-color: $brand-color;
+    box-shadow: 0px 5px 10px $grey-color-dark;
     border-radius: 25px;
-    border: 5px solid #fff;
+    border: 5px solid $brand-color-light;
     padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
     //TODO: design this to look like a bubble
+
+    input {
+        width: 39%;
+        height: 2em;
+        padding: 0.5%;
+        margin: 0.5%;
+        font-size: 115%;
+        border-radius: 10px;
+        border: 0;
+        text-align: center;
+        box-shadow: inset 2px 2px 5px #000;
+
+        &[type=submit] {
+            width: 15%;
+            box-shadow: 0 0 0 #000;
+        }
+    }
 }
