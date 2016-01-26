@@ -215,17 +215,14 @@ pre {
  * Forms
  */
 form.signup {
-    background-color: $brand-color;
-    box-shadow: 0px 5px 10px $grey-color-dark;
-    border-radius: 25px;
-    border: 5px solid $brand-color-light;
+    background-color: $grey-color-light;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
     font-weight: 600;
 
     input {
-        background-color: $brand-color-light;
         width: 39%;
         height: 2em;
         padding: 0.5%;
@@ -234,11 +231,11 @@ form.signup {
         border-radius: 6px;
         border: 0;
         text-align: center;
-        box-shadow: inset 2px 2px 5px #000;
 
         &[type=submit] {
             width: 15%;
-            box-shadow: 0 0 0 #000;
+            background-color: $brand-color;
+            color: #fff;
         }
     }
 
@@ -249,6 +246,8 @@ form.signup {
             margin-bottom: $spacing-unit / 4;
             &[type=submit] {
                 width: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
             }
         }
     }
