@@ -54,31 +54,3 @@ $on-laptop:        800px;
         "base",
         "layout"
 ;
-
-form.signup {
-    background-color: $brand-color;
-    box-shadow: 0px 5px 10px $grey-color-dark;
-    border-radius: 25px;
-    border: 5px solid $brand-color-light;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 30px;
-    font-weight: 600;
-
-    input {
-        width: 39%;
-        height: 2em;
-        padding: 0.5%;
-        margin: 0.5%;
-        font-size: 115%;
-        border-radius: 10px;
-        border: 0;
-        text-align: center;
-        box-shadow: inset 2px 2px 5px #000;
-
-        &[type=submit] {
-            width: 15%;
-            box-shadow: 0 0 0 #000;
-        }
-    }
-}
