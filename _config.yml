@@ -10,3 +10,9 @@ timezone: Europe/Budapest
 
 # Build settings
 markdown: kramdown
+
+# FTP settings
+ftp_host: 'icfbudapest.org'
+ftp_dir: '/www/www'
+ftp_passive: false
+ftp_username: 'icfbudapest'
