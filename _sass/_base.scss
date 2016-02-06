@@ -235,6 +235,7 @@ form.signup {
         &[type=submit] {
             width: 15%;
             background-color: $brand-color;
+            -webkit-appearance: none;
             color: #fff;
         }
     }
