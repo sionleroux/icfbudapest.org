@@ -16,4 +16,3 @@ markdown: kramdown
 ftp_host: 'icfbudapest.org'
 ftp_dir: '/www/www'
 ftp_passive: false
-ftp_username: 'icfbudapest'
