@@ -18,8 +18,7 @@ About Us
 {{ site.description }}
 
 **Come join us for our main meeting which takes place on Friday evenings
-from 6 pm until 8:30 PM at <span title="Szigony u. 16a, 1083
-Budapest">The Forum</span>.**
+from 6 PM until 8:30 PM at <span title="Szigony u. 16a, 1083 Budapest">The Forum</span>.**
 
 Why
 ---
@@ -30,8 +29,8 @@ God's Word, and God's people.  It was recognised that there are many
 students and other young people in Budapest who would appreciate an
 English language Christian community.  This community is not affiliated
 to any of the International churches in Budapest but it is a part of the
-Hungarian Fellowship of Evangelical Christian Students movement (MEKDSZ)
-, which itself is a part of the broader IFES family.
+Hungarian Fellowship of Evangelical Christian Students movement ([MEKDSZ](http://mekdsz.hu)), 
+which itself is a part of the broader [IFES](http://www.ifesworld.org) family.
 
 Who
 ---
@@ -44,6 +43,6 @@ Protestants, Reformed to Charismatic, or anywhere in between.
 
 Where
 -----
-We usually meet on Friday evenings at 6:00pm at Forum ([Szigony u. 16a, 1083 Budapest](https://goo.gl/maps/PJnoKsb26z92)).
+We usually meet on Friday evenings at 6:00pm at [Forum](https://www.facebook.com/theForumBudapest) ([Szigony u. 16a, 1083 Budapest](https://goo.gl/maps/PJnoKsb26z92)).
 If you'd like to join us, please send us an email and we will give you
 the exact directions.  We look forward to meeting you!
