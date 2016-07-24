@@ -14,5 +14,5 @@ markdown: kramdown
 
 # FTP settings
 ftp_host: 'icfbudapest.org'
-ftp_dir: '/www/www'
+ftp_dir: ''
 ftp_passive: false
