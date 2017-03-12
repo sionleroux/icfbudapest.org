@@ -71,3 +71,5 @@ And here's what we've been doing in previous weeks:
 {% for post in site.posts offset:1 limit:5 %}
  * [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
 {% endfor %}
+
+<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
