@@ -3,20 +3,24 @@ layout: post
 author: Siôn
 ---
 
+This Friday we talked about fasting in general and, more specifically,
+fasting and abstinence during lent, which is the forty day period before
+Easter.
+
 What is lent?
 -------------
 
-This Friday we talked about lent.
-
 Lent is observed in some Christian denominations, for example the Roman
 Catholic and the Eastern Orthodox church.  It involves self-denial,
-fasting and confession during the 40 days leading up to Easter,
+fasting, confession and prayer during the 40 days leading up to Easter,
 symbolising the 40 days Jesus spent fasting in the desert.  Although
 most Catholics abstain specifically from meat, people often choose to
 deny some pleasurable activity and spend time in prayer instead.  A
 modern example is abstaining from Facebook.
 
-The word "lent" comes from an Old English word "lenten", meaning Spring.
+The word "*lent*" comes from an Old English word "*lenten*", meaning
+"*Spring*", and the Hungarian word for lent, "*nagyböjt*", literally
+translates to "*great fast*".
 
 What did we talk about?
 -----------------------
