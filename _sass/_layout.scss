@@ -285,3 +285,21 @@
         }
     }
 }
+
+.blog-showcase {
+    background-color: $brand-color-light;
+    border: 0;
+    border-left: 3px dashed $brand-color;
+    border-right: 3px dashed $brand-color;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+
+    h1 { font-size: 1.6em; }
+    h2 { font-size: 1.4em; }
+
+    .author {
+        color: $grey-color;
+        font-style: italic;
+        text-align: right;
+    }
+}

@@ -54,8 +54,20 @@ the exact directions.  We look forward to meeting you!
 Blog
 ====
 
-Here's what we've been doing in previous weeks:
+Here's what we've been up to last week:
+[{{ site.posts.first.title }}]({{ site.posts.first.url }})
+({{ site.posts.first.date | date_to_string }})
 
-{% for post in site.posts offset:0 limit:5 %}
+<div class="blog-showcase">
+	<h1>{{ site.posts.first.title }}</h1>
+	{{ site.posts.first.content }}
+	{% if site.posts.first.author %}
+		<div class="author">-- {{ site.posts.first.author }}</div>
+	{% endif %}
+</div>
+
+And here's what we've been doing in previous weeks:
+
+{% for post in site.posts offset:1 limit:5 %}
  * [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
 {% endfor %}
