@@ -37,22 +37,31 @@ fasting that it only mentions him being hungry *after* 40 days; until
 that time he was concerning himself with spiritual nourishment, spending
 time with the Father:
 
-[Matthew 4:1-11](https://www.biblegateway.com/passage/?search=Matthew+4%3A1-11&version=NIV) (NIV)
+[Matthew 4:1-11](https://www.biblegateway.com/passage/?search=Matthew+4%3A1-11&version=WEB)
 
-> **2** After fasting forty days and forty nights, he was hungry.
+> **2** When he had fasted forty days and forty nights, he was hungry
+> afterwards.
 
 Similarly, after talking to the Samaritan woman at the well, when asked
 to eat, Jesus replies that his task on Earth is food enough:
 
-[John 4:27-38](https://www.biblegateway.com/passage/?search=John+4%3A27-38&version=NIV) (NIV)
+[John 4:27-38](https://www.biblegateway.com/passage/?search=John+4%3A27-38&version=WEB)
 
-> **34** "My food," said Jesus, "is to do the will of him who sent me and to finish his work.
+> **34** Jesus said to them, "My food is to do the will of him who sent
+> me, and to accomplish his work.
 
 Lastly, we had a look at what Jesus says about how you should fast:
 
-[Matthew 6:16-18](https://www.biblegateway.com/passage/?search=Matthew+6%3A16-18&version=NIV) (NIV)
+[Matthew 6:16-18](https://www.biblegateway.com/passage/?search=Matthew+6%3A16-18&version=WEB)
 
-> **16** "When you fast, do not look sombre as the hypocrites do, for they disfigure their faces to show others they are fasting.  Truly I tell you, they have received their reward in full.  **17** But when you fast, put oil on your head and wash your face, **18** so that it will not be obvious to others that you are fasting, but only to your Father, who is unseen; and your Father, who sees what is done in secret, will reward you.
+> **16** "Moreover when you fast, don’t be like the hypocrites, with sad
+> faces. For they disfigure their faces, that they may be seen by men to
+> be fasting. Most certainly I tell you, they have received their
+> reward.
+> **17** But you, when you fast, anoint your head, and wash your face;
+> **18** so that you are not seen by men to be fasting, but by your
+> Father who is in secret, and your Father, who sees in secret, will
+> reward you.
 
 Basically, that the point is not to suffer publicly, or to suffer at
 all, but rather to put things aside to spend more time with God and
