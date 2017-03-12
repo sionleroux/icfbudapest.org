@@ -50,3 +50,12 @@ We usually meet on Friday evenings at 6:00pm at
 ([Szigony u. 16a, 1083 Budapest](https://goo.gl/maps/PJnoKsb26z92)).
 If you'd like to join us, please send us an email and we will give you
 the exact directions.  We look forward to meeting you!
+
+Blog
+====
+
+Here's what we've been doing in previous weeks:
+
+{% for post in site.posts offset:0 limit:5 %}
+ * [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
+{% endfor %}
