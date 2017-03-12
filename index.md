@@ -68,8 +68,10 @@ Here's what we've been up to last week:
 
 And here's what we've been doing in previous weeks:
 
+<ul class="blog-list">
 {% for post in site.posts offset:1 limit:5 %}
- * [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
 {% endfor %}
+</ul>
 
 <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
