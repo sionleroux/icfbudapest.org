@@ -37,7 +37,7 @@ fasting that it only mentions him being hungry *after* 40 days; until
 that time he was concerning himself with spiritual nourishment, spending
 time with the Father:
 
-[Matthew 4:1-11](https://www.biblegateway.com/passage/?search=Matthew+4%3A1-11&version=WEB)
+{%bible Matthew 4:1-11%}
 
 > **2** When he had fasted forty days and forty nights, he was hungry
 > afterwards.
@@ -45,14 +45,14 @@ time with the Father:
 Similarly, after talking to the Samaritan woman at the well, when asked
 to eat, Jesus replies that his task on Earth is food enough:
 
-[John 4:27-38](https://www.biblegateway.com/passage/?search=John+4%3A27-38&version=WEB)
+{%bible John 4:27-38%}
 
 > **34** Jesus said to them, "My food is to do the will of him who sent
 > me, and to accomplish his work.
 
 Lastly, we had a look at what Jesus says about how you should fast:
 
-[Matthew 6:16-18](https://www.biblegateway.com/passage/?search=Matthew+6%3A16-18&version=WEB)
+{%bible Matthew 6:16-18%}
 
 > **16** "Moreover when you fast, don’t be like the hypocrites, with sad
 > faces. For they disfigure their faces, that they may be seen by men to
