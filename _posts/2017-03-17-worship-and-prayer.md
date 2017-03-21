@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Worship and Prayer
 author: Siôn
 ---
 

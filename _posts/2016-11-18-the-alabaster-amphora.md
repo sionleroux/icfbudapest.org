@@ -1,5 +1,6 @@
 ---
 layout: post
+title: The Alabaster Amphora
 author: Berni
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: The Compassion that Heals
 author: Annamari
 ---
 
