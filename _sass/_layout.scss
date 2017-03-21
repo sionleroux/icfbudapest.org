@@ -303,3 +303,15 @@
         text-align: right;
     }
 }
+
+.photo-attribution {
+    background-color: $grey-color-dark;
+    font-size: 14px;
+    color: $grey-color-light;
+    font-style: italic;
+    padding-bottom: 0.5em;
+    text-align: center;
+    img {
+        margin-bottom: 0.5em;
+    }
+}
