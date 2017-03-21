@@ -1,5 +1,6 @@
 ---
 layout: post
+thumbnail: calvary-scenery.jpg
 title: Hiking Kalvária Hegy
 author: Siôn
 ---
