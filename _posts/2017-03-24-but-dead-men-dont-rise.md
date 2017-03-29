@@ -31,7 +31,7 @@ Our options:
   * maintain our beliefs about what is physically possible → a miracle
     took place → doesn't conflict
 
-Some sceptic reasons:
+Some skeptic reasons:
 
 > Extraordinary claims require extraordinary evidence
 
@@ -45,7 +45,7 @@ Extraordinary evidence is needed if:
     * huge change in beliefs
     * high economic cost
   * science has shown many reports to be false
-    * doesn't tell you nything about whether there can be true ones
+    * doesn't tell you anything about whether there can be true ones
     * higher bar of evidence to weed out the false from the
       potentially genuine
 
