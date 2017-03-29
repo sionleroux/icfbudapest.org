@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteBase /
 RewriteRule ^/$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . / [L,R=permanent]
+ErrorDocument 404 /notfound.html
+# misleading, but works until I get working blog directory indexes:
+ErrorDocument 403 /notfound.html
