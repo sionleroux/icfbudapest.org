@@ -31,15 +31,28 @@
         color: $grey-color-dark;
     }
 }
+@include media-query($on-tablet) {
+    .site-title {
+        font-size: 18px;
+    }
+}
 @include media-query($on-palm) {
     .site-title {
         text-align: center;
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 10px;
         .site-logo {
+            margin-bottom: -20px;
             max-height: 100%;
         }
     }
 }
-
+@include media-query($on-palm) {
+    .site-title {
+        font-size: 15px;
+    }
+}
 
 .site-nav {
     float: right;
