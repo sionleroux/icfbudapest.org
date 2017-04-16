@@ -29,7 +29,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-mobile:        400px;
+$on-tiny:          400px;
+$on-mobile:        450px;
 $on-palm:          600px;
 $on-tablet:        650px;
 $on-laptop:        800px;

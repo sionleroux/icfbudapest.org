@@ -33,13 +33,12 @@
 }
 @include media-query($on-tablet) {
     .site-title {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 @include media-query($on-palm) {
     .site-title {
         text-align: center;
-        font-size: 18px;
         line-height: 1.2;
         margin-bottom: 10px;
         .site-logo {
@@ -48,7 +47,12 @@
         }
     }
 }
-@include media-query($on-palm) {
+@include media-query($on-mobile) {
+    .site-title {
+        font-size: 18px;
+    }
+}
+@include media-query($on-tiny) {
     .site-title {
         font-size: 15px;
     }
