@@ -18,8 +18,7 @@ About Us
 {{ site.description }}
 
 **Come join us for our main meeting which takes place on Friday evenings
-from 6 PM until 8:30 PM at <span title="Szigony u. 16a, 1083 Budapest">
-The Forum</span>.**
+from 6 PM until 8:30 PM**
 
 Why
 ---
