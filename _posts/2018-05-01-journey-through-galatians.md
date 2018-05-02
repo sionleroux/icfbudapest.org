@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Galatians
+title: Journey Through Galatians
 author: Annamari
 ---
 
