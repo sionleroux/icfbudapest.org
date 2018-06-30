@@ -53,7 +53,7 @@ the exact directions.  We look forward to meeting you!
 Blog
 ====
 
-Here's what we've been up to last week:
+Here's what we've been up to most recently:
 [{{ site.posts.first.title }}]({{ site.posts.first.url }})
 ({{ site.posts.first.date | date_to_string }})
 
@@ -65,7 +65,7 @@ Here's what we've been up to last week:
 	{% endif %}
 </div>
 
-And here's what we've been doing in previous weeks:
+And here's what we've been doing previously:
 
 <ul class="blog-list">
 {% for post in site.posts offset:1 limit:5 %}
