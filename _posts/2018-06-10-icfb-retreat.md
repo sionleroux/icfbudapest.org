@@ -23,3 +23,7 @@ And in our Sunday morning discussion, we focused on {%bible John 16:5-33%}, a bi
 We looked at how the disciples reacted, and what we can learn from this change. When in life, something is taken from us, it is natural and normal that it hurts, and also that we feel scared of the unknown. And as the "there is a time for everything" passage says, it is okay to take time and face these feelings and emotions, to go through them. But it is also important to keep in mind that though they are real,  they don't constitute the whole of reality. And it all comes down to trust in the one who knows and takes care of it all.
 
 All in all, we did have an awesome, peaceful, relaxing AND fun time in Mátrakeresztes. We hope you will join us next time (most likely in October/November)!
+
+![Welcome to Mátra]({{ site.url }}/assets/welcome-to-matra.jpg)
+Welcome to Mátra
+{: .photo-attribution }
