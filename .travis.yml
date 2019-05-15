@@ -3,7 +3,9 @@ language: ruby
 rvm: '2.5.0'
 cache: bundler
 
-script: bundle exec jekyll build
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site
 
 deploy:
   provider: script
