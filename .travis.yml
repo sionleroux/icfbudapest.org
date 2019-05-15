@@ -7,7 +7,9 @@ script: bundle exec jekyll build
 
 deploy:
   provider: script
-  script: echo "ftp_username: $FTP_USERNAME" >> _config.yml && echo "ftp_password: $FTP_PASSWORD" >> _config.yml && gem install glynn && glynn
+  script: echo "ftp_username: $FTP_USERNAME" >> _config.yml && \
+    echo "ftp_password: $FTP_PASSWORD" >> _config.yml && \
+    gem install glynn && glynn
   on:
     branch: master
   skip_cleanup: true
