@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+echo "ftp_username: $FTP_USERNAME" >> _config.yml && \
+    echo "ftp_password: $FTP_PASSWORD" >> _config.yml && \
+    gem install glynn && glynn
