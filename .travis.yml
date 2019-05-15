@@ -5,7 +5,7 @@ cache: bundler
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --allow-hash-href
+  - bundle exec htmlproofer ./_site --allow-hash-href --disable-external
 
 deploy:
   provider: script
