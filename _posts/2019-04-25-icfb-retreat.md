@@ -1,7 +1,8 @@
 ---
 layout: post
-title: ICFB early summer retreat
+title: ICFB early Spring retreat
 author: Annamari
+date: 2019-04-07
 ---
 
 Here's a summary of the ICFB spring retreat of 2019. This retreat was special for many reasons. First, it seemed like it might not be possible for this retreat to happen. There are so many things to organize, so many things that needed to work out. Yet God, again, proved to be an expert on making ways where there seems to be no way.
