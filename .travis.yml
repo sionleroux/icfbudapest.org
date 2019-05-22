@@ -3,7 +3,8 @@ language: ruby
 rvm: '2.5.0'
 cache: bundler
 
-script: bundle exec jekyll build
+# script: bundle exec jekyll build
+script: true
 
 deploy:
   provider: script
