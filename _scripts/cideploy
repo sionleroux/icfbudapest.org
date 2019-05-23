@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 set -xe
 
+ls
+
+cat _config.yml
+
 echo "ftp_username: $FTP_USERNAME" >> _config.yml && \
     echo "ftp_password: $FTP_PASSWORD" >> _config.yml && \
     gem install glynn && glynn
+
+cat _config.yml
+
