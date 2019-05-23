@@ -5,9 +5,10 @@ ls
 
 cat _config.yml
 
-echo "ftp_username: $FTP_USERNAME" >> _config.yml && \
-    echo "ftp_password: $FTP_PASSWORD" >> _config.yml && \
-    gem install glynn && glynn
+echo "ftp_username: $FTP_USERNAME" >> _config.yml
+echo "ftp_password: $FTP_PASSWORD" >> _config.yml
 
 cat _config.yml
+
+gem install glynn && glynn
 
