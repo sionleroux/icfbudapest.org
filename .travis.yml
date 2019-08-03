@@ -4,12 +4,11 @@ rvm: '2.6.3'
 cache: bundler
 
 script: bundle exec jekyll build
-# script: true
 
 deploy:
   provider: script
   # script: ./_scripts/cideploy
-  script: "bundle install && bundle exec glynn"
+  script: "find _site -type f -exec curl -u xxx:psw --ftp-create-dirs -T {} ftp://$FTP_USERNAME:$FTP_PASSWORD@icfbudapest.org:21/{} \;"
   on:
     branch: master
   skip_cleanup: true
