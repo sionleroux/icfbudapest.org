@@ -9,7 +9,7 @@ script: bundle exec jekyll build
 deploy:
   provider: script
   # script: ./_scripts/cideploy
-  script: bundle exec glynn
+  script: "bundle install && bundle exec glynn"
   on:
     branch: master
   skip_cleanup: true
