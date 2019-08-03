@@ -18,3 +18,4 @@ exclude: [vendor]
 exclude:
 - Gemfile
 - Gemfile.lock
+- deploy.sh

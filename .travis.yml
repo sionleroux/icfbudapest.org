@@ -7,8 +7,7 @@ script: bundle exec jekyll build
 
 deploy:
   provider: script
-  # script: ./_scripts/cideploy
-  script: "find _site -type f -exec curl -u xxx:psw --ftp-create-dirs -T {} ftp://$FTP_USERNAME:$FTP_PASSWORD@icfbudapest.org:21/{} \;"
+  script: ./deploy.sh
   on:
     branch: master
   skip_cleanup: true
