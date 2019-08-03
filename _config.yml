@@ -14,8 +14,3 @@ logo: /img/icfbudapest.png # URL to site logo
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
-exclude:
-- Gemfile
-- Gemfile.lock
-- deploy.sh
