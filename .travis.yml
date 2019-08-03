@@ -3,13 +3,13 @@ language: ruby
 rvm: '2.6.3'
 cache: bundler
 
-script: jekyll build
+script: bundle exec jekyll build
 # script: true
 
 deploy:
   provider: script
   # script: ./_scripts/cideploy
-  script: glynn
+  script: bundle exec glynn
   on:
     branch: master
   skip_cleanup: true
