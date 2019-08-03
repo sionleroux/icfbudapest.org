@@ -15,3 +15,4 @@ deploy:
   script: glynn
   on:
     branch: master
+  skip_cleanup: true
