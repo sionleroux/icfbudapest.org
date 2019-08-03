@@ -11,7 +11,9 @@ before_deploy: |
 
 deploy:
   provider: script
-  script: gem install glynn & glynn
+  script: >
+    gem install glynn
+    && glynn
   on:
     branch: master
   skip_cleanup: true
