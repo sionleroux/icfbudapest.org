@@ -18,8 +18,3 @@ exclude: [vendor]
 exclude:
 - Gemfile
 - Gemfile.lock
-
-# FTP settings
-ftp_host: 'icfbudapest.org'
-ftp_dir: ''
-ftp_passive: false
