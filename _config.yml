@@ -15,6 +15,9 @@ logo: /img/icfbudapest.png # URL to site logo
 # Build settings
 markdown: kramdown
 exclude: [vendor]
+exclude:
+- Gemfile
+- Gemfile.lock
 
 # FTP settings
 ftp_host: 'icfbudapest.org'
