@@ -18,6 +18,7 @@ deploy:
     -u $FTP_USERNAME
     -p $FTP_PASSWORD
     -S .tmp 
+    -r 3
     -Rz ftp.sinisterstuf.org
     / .
   on:
