@@ -12,9 +12,8 @@ addons:
 
 deploy:
   provider: script
-  script:
-  - cd _site
-  - >
+  script: >-
+    cd _site &&
     ncftpput
     -u $FTP_USERNAME
     -p $FTP_PASSWORD
