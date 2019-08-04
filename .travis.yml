@@ -18,7 +18,7 @@ deploy:
     -p $FTP_PASSWORD
     -S .tmp
     -R ftp.sinisterstuf.org
-    / _site/*
+    / _site
   on:
     branch: master
   skip_cleanup: true
