@@ -5,6 +5,11 @@ cache: bundler
 
 script: bundle exec jekyll build
 
+addons:
+  apt:
+    packages:
+    - ncftp
+
 deploy:
   provider: script
   script: ./_deploy.sh
