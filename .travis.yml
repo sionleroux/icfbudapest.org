@@ -13,12 +13,10 @@ addons:
 deploy:
   provider: script
   script: >
-    ncftpput
-    -u $FTP_USERNAME
-    -p $FTP_PASSWORD
-    -S .tmp
-    -R ftp.sinisterstuf.org
-    / _site
+    cd _site
+    && ncftpput -S .tmp -R
+    -u $FTP_USERNAME -p $FTP_PASSWORD
+    ftp.sinisterstuf.org / .
   on:
     branch: master
   skip_cleanup: true
