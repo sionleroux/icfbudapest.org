@@ -18,7 +18,7 @@ deploy:
     -u $FTP_USERNAME
     -p $FTP_PASSWORD
     -S .tmp 
-    -RVz ftp.sinisterstuf.org
+    -Rz ftp.sinisterstuf.org
     / .
   on:
     branch: master
