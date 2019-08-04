@@ -16,7 +16,7 @@ deploy:
     cd _site
     && ncftpput -S .tmp -R
     -u $FTP_USERNAME -p $FTP_PASSWORD
-    ftp.sinisterstuf.org / .
+    ftp.sinisterstuf.org / ./
   on:
     branch: master
   skip_cleanup: true
