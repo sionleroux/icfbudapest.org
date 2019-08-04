@@ -8,4 +8,4 @@ set -ev
 # # Real work
 # gem install glynn && glynn
 
-ncftpput -u $FTP_USERNAME -p $FTP_PASSWORD -S .tmp -R ftp.sinisterstuf.org / _site/
+ncftpput -u $FTP_USERNAME -p $FTP_PASSWORD -R ftp.sinisterstuf.org / _site/
