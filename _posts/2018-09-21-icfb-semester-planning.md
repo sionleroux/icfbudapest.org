@@ -2,7 +2,7 @@
 layout: post
 title: ICFB semester planning
 author: Annamari
-date: 21 September
+date: 2018-09-21
 ---
 
 In case you missed this funFriday, here's a summary of what we shared, discussed, ideas we came up with, decisions we made, etc.

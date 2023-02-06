@@ -2,7 +2,7 @@
 layout: post
 title: ICFB early summer retreat
 author: Annamari
-date: 10 June
+date: 2018-06-10
 ---
 
 After a long time, ICFB got to have a retreat in Mátrakeresztes again!
