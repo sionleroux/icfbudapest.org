@@ -222,11 +222,16 @@ form.signup {
     margin-bottom: 30px;
     font-weight: 600;
 
+    .input-field {
+        margin: 0.5%;
+    }
+
     input {
-        width: 39%;
+        width: 31%;
         height: 2em;
         padding: 0.5%;
         margin: 0.5%;
+        margin-left: 0;
         font-size: 115%;
         border-radius: 6px;
         border: 0;
@@ -240,8 +245,18 @@ form.signup {
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-laptop) {
         input {
+            font-size: 90%;
+            width: 30%;
+        }
+        .input-field {
+            margin: 0;
+        }
+    }
+
+    @include media-query($on-palm) {
+        .input-field,input {
             width: 100%;
             margin: $spacing-unit / 4 0;
             padding: 0.5% 0;
