@@ -244,6 +244,8 @@ form.signup {
             background-color: $brand-color;
             -webkit-appearance: none;
             color: #fff;
+            float: right;
+            margin-top: 1%;
         }
     }
 
@@ -269,6 +271,7 @@ form.signup {
                 width: 50%;
                 margin-left: 25%;
                 margin-right: 25%;
+                float: none;
             }
         }
     }
