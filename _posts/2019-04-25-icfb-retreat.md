@@ -25,7 +25,7 @@ Snippets from our Saturday evening discussion.
 
 > "Am I now trying to win the approval of human beings, or of God? Or am I trying to please people? If I were still trying to please people, I would not be a servant of Christ."
 
-Galatians 1.10 (NIV)
+{%bible Galatians 1:10%}
 
 - How important is being accepted to you?
 - As humans, why do we sacrifice so much for acceptance?
@@ -38,11 +38,11 @@ Galatians 1.10 (NIV)
 Snippets from our Sunday morning discussion.
 
 > "Greater love has no one than this: to lay down one's life for one's friends. You are my friends if you do what I command. I no longer call you servants, because a servant does not know his master's business. Instead, I have called you friends, for everything that I learned from my Father I have made known to you. You did not choose me, but I chose you and appointed you so that you might go and bear fruit --fruit that will last-- and so that whatever you ask in my name the Father will give you. This is my command: Love each other."
-John 15.13-17 (NIV)
+{%bible John 15:13-17%}
 - Do you have a friend who is just similar to you? Or a friend you chose?
 - We should have 3 types of friends: one that mentors you, one that you mentor, and one that fights alongside of you
-"One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother." Proverbs 18.24 (NIV)
-"A friend loves at all times, and a brother is born for a time of adversity." Proverbs 17.17 (NIV)
+"One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother." {%bible Proverbs 18:24%}
+"A friend loves at all times, and a brother is born for a time of adversity." {%bible Proverbs 17:17%}
 
 We also talked about defining relationships, friendship. We all have friendships of different levels of commitment. Defining where we stand might be scary and awkward, but also very beneficial. If the other person doesn't see the friendship at the same level as you do, then it saves time, energy we would pour into it, and saves you from the pain of unmet expectations. And also, if it turns out that you both see the friendship as one you want to pour more into, defining the friendship just furthers growth.
 
