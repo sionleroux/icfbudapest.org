@@ -9,7 +9,7 @@ module Jekyll
 
     def render(context)
       "[#{@text}](https://www.biblegateway.com/passage/" +
-        "?search=#{CGI::escape(@text)}&version=WEB)"
+        "?search=#{CGI::escape(@text)}&version=NIV)"
     end
   end
 end
