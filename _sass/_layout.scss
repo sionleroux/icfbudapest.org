@@ -328,6 +328,12 @@
     font-style: italic;
     padding-bottom: 0.5em;
     text-align: center;
+    max-width: 70%;
+    margin: 1rem auto;
+    border: 2px solid $grey-color-dark;
+    @include media-query($on-mobile) {
+        max-width: 100%;
+    }
     img {
         margin-bottom: 0.5em;
     }
