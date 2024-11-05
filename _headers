@@ -1,4 +1,3 @@
 /*
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src 'self'
   Content-Security-Policy: default-src 'self'; script-src https://gc.zgo.at; connect-src https://icfb.goatcounter.com/count;
