@@ -1,10 +1,52 @@
+@use "theme";
+
+// Width of the content area
+$content-width:    800px;
+
+$on-tiny:          400px;
+$on-mobile:        450px;
+$on-palm:          600px;
+$on-tablet:        650px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
 /**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
-    background-color: $brand-color-light;
+    border-top: 5px solid theme.$brand-color;
+    border-bottom: 1px solid theme.$grey-color-light;
+    background-color: theme.$brand-color-light;
     min-height: 56px;
     box-shadow: 0px 0px 10px #000;
 
@@ -28,7 +70,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: theme.$grey-color-dark;
     }
 }
 @include media-query($on-tablet) {
@@ -67,8 +109,8 @@
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        color: theme.$text-color;
+        line-height: theme.$base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -79,9 +121,9 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: $spacing-unit * 0.5;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        right: theme.$spacing-unit * 0.5;
+        background-color: theme.$background-color;
+        border: 1px solid theme.$grey-color-light;
         border-radius: 5px;
         text-align: right;
 
@@ -99,7 +141,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: theme.$grey-color-dark;
                 }
             }
         }
@@ -132,15 +174,15 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    background-color: $brand-color-light;
-    padding: $spacing-unit 0;
+    border-top: 1px solid theme.$grey-color-light;
+    background-color: theme.$brand-color-light;
+    padding: theme.$spacing-unit 0;
     box-shadow: 0px 0px 10px #000;
 }
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit * 0.5;
+    margin-bottom: theme.$spacing-unit * 0.5;
 }
 
 .contact-list,
@@ -151,50 +193,50 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit * 0.5;
+    color: theme.$grey-color;
+    margin-left: - theme.$spacing-unit * 0.5;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit * 0.5;
-    padding-left: $spacing-unit * 0.5;
+    margin-bottom: theme.$spacing-unit * 0.5;
+    padding-left: theme.$spacing-unit * 0.5;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{theme.$spacing-unit} / 2));
+    width:         calc(40% - (#{theme.$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(15% - (#{theme.$spacing-unit} / 2));
+    width:         calc(15% - (#{theme.$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{theme.$spacing-unit} / 2));
+    width:         calc(45% - (#{theme.$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - (#{theme.$spacing-unit} / 2));
+        width:         calc(50% - (#{theme.$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - (#{theme.$spacing-unit} / 2));
+        width:         calc(100% - (#{theme.$spacing-unit} / 2));
     }
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - (#{theme.$spacing-unit} / 2));
+        width:         calc(100% - (#{theme.$spacing-unit} / 2));
     }
 }
 
@@ -204,12 +246,12 @@
  * Page content
  */
 .page-content {
-    background: url('../img/bg.png') $brand-color-dark repeat fixed;
+    background: url('../img/bg.png') theme.$brand-color-dark repeat fixed;
 
     .wrapper {
-        padding-top: $spacing-unit;
-        padding-bottom: $spacing-unit;
-        background-color: $background-color;
+        padding-top: theme.$spacing-unit;
+        padding-bottom: theme.$spacing-unit;
+        background-color: theme.$background-color;
         box-shadow: 0 0 10px #000;
     }
 }
@@ -223,13 +265,13 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: theme.$spacing-unit;
     }
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    font-size: theme.$small-font-size;
+    color: theme.$grey-color;
 }
 
 .post-link {
@@ -243,7 +285,7 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: theme.$spacing-unit;
 }
 
 .post-title {
@@ -257,7 +299,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: theme.$spacing-unit;
 
     h2 {
         font-size: 32px;
@@ -304,10 +346,10 @@
 }
 
 .blog-showcase {
-    background-color: $brand-color-light;
+    background-color: theme.$brand-color-light;
     border: 0;
-    border-left: 3px dashed $brand-color;
-    border-right: 3px dashed $brand-color;
+    border-left: 3px dashed theme.$brand-color;
+    border-right: 3px dashed theme.$brand-color;
     padding: 1em 2em;
     margin-bottom: 1em;
 
@@ -315,22 +357,22 @@
     h2 { font-size: 1.4em; }
 
     .author {
-        color: $grey-color;
+        color: theme.$grey-color;
         font-style: italic;
         text-align: right;
     }
 }
 
 .photo-attribution {
-    background-color: $grey-color-dark;
+    background-color: theme.$grey-color-dark;
     font-size: 14px;
-    color: $grey-color-light;
+    color: theme.$grey-color-light;
     font-style: italic;
     padding-bottom: 0.5em;
     text-align: center;
     max-width: 70%;
     margin: 1rem auto;
-    border: 2px solid $grey-color-dark;
+    border: 2px solid theme.$grey-color-dark;
     @include media-query($on-mobile) {
         max-width: 100%;
     }

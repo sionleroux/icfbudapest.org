@@ -1,8 +1,12 @@
+@use "sass:color";
+@use "sass:list";
+@use "theme";
+@use "layout";
+
+
 /**
  * Reset some basic elements
  */
-@use "sass:list";
-
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -16,9 +20,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight list.slash($base-font-size, $base-line-height) $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    font: theme.$base-font-weight list.slash(theme.$base-font-size, theme.$base-line-height) theme.$base-font-family;
+    color: theme.$text-color;
+    background-color: theme.$background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -36,7 +40,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit * 0.5;
+    margin-bottom: theme.$spacing-unit * 0.5;
 }
 
 
@@ -59,7 +63,7 @@ figure > img {
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: theme.$small-font-size;
 }
 
 
@@ -68,7 +72,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: theme.$spacing-unit;
 }
 
 li {
@@ -84,12 +88,12 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight * 2;
+    font-weight: theme.$base-font-weight * 2;
     text-align: center;
 
     &.footer-heading {
         text-align: left;
-        color: $grey-color-dark;
+        color: theme.$grey-color-dark;
     }
 }
 
@@ -99,15 +103,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: theme.$brand-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: color.adjust(theme.$brand-color, theme.$lightness: -15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: theme.$text-color;
         text-decoration: underline;
     }
 }
@@ -118,9 +122,9 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit * 0.5;
+    color: theme.$grey-color;
+    border-left: 4px solid theme.$grey-color-light;
+    padding-left: theme.$spacing-unit * 0.5;
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
@@ -138,7 +142,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid theme.$grey-color-light;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -164,19 +168,19 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{layout.$content-width} - (#{theme.$spacing-unit} * 2));
+    max-width:         calc(#{layout.$content-width} - (#{theme.$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: theme.$spacing-unit;
+    padding-left: theme.$spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit * 0.5;
-        padding-left: $spacing-unit * 0.5;
+    @include layout.media-query(layout.$on-laptop) {
+        max-width: -webkit-calc(#{layout.$content-width} - (#{theme.$spacing-unit}));
+        max-width:         calc(#{layout.$content-width} - (#{theme.$spacing-unit}));
+        padding-right: theme.$spacing-unit * 0.5;
+        padding-left: theme.$spacing-unit * 0.5;
     }
 }
 
@@ -184,6 +188,8 @@ pre {
 
 /**
  * Clearfix
+ * This is a duplicate of the one in _layout.scss because I don't know how to
+ * reference a placeholder from another module, layout.%clearfix doesn't work.
  */
 %clearfix {
 
@@ -208,7 +214,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: theme.$grey-color;
         }
     }
 }
@@ -217,7 +223,7 @@ pre {
  * Forms
  */
 form.signup {
-    background-color: $grey-color-light;
+    background-color: theme.$grey-color-light;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
@@ -241,7 +247,7 @@ form.signup {
 
         &[type=submit] {
             width: 15%;
-            background-color: $brand-color;
+            background-color: theme.$brand-color;
             -webkit-appearance: none;
             color: #fff;
             float: right;
@@ -249,7 +255,7 @@ form.signup {
         }
     }
 
-    @include media-query($on-laptop) {
+    @include layout.media-query(layout.$on-laptop) {
         margin-left: 0;
         margin-right: 0;
 
@@ -262,13 +268,13 @@ form.signup {
         }
     }
 
-    @include media-query($on-palm) {
+    @include layout.media-query(layout.$on-palm) {
         input {
             width: 100%;
-            margin-bottom: $spacing-unit * 0.5;
+            margin-bottom: theme.$spacing-unit * 0.5;
         }
         .input-field {
-            margin: $spacing-unit * 0.25 0;
+            margin: theme.$spacing-unit * 0.25 0;
             padding: 0.5% 0;
             &[type=submit] {
                 width: 50%;
