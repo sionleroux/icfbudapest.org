@@ -9,7 +9,8 @@ module Jekyll
 
     def render(context)
       "[#{@text}](https://www.biblegateway.com/passage/" +
-        "?search=#{CGI::escape(@text)}&version=NIV)"
+        "?search=#{CGI::escape(@text)}&version=NIV)" +
+        "{: data-goatcounter-click='ext-biblegateway.com'}"
     end
   end
 end

@@ -30,8 +30,14 @@ students and other young people in Budapest who would appreciate an
 English language Christian community.  This community is not affiliated
 to any of the International churches in Budapest but it is a part of the
 Hungarian Fellowship of Evangelical Christian Students movement
-([MEKDSZ](http://mekdsz.hu)), which itself is a part of the broader
-[IFES](http://www.ifesworld.org) family.
+([MEKDSZ][MEKDSZ]), which itself is a part of the broader [IFES][IFES]
+family.
+
+[MEKDSZ]: http://mekdsz.hu
+{: data-goatcounter-click='ext-mekdsz.hu'}
+
+[IFES]: http://www.ifesworld.org
+{: data-goatcounter-click='ext-ifesworld.org'}
 
 Who
 ---
@@ -45,8 +51,8 @@ Protestants, Reformed to Charismatic, or anywhere in between.
 Where
 -----
 We usually meet on Friday evenings at 6:00pm at
-[Forum](https://www.facebook.com/theForumBudapest)
-([Szigony u. 16a, 1083 Budapest](https://goo.gl/maps/PJnoKsb26z92)).
+[Forum](https://www.facebook.com/theForumBudapest){: data-goatcounter-click='ext-theforum'}
+([Szigony u. 16a, 1083 Budapest](https://goo.gl/maps/PJnoKsb26z92){: data-goatcounter-click='ext-maps.google.com'}).
 If you'd like to join us, please send us an email and we will give you
 the exact directions.  We look forward to meeting you!
 
@@ -73,4 +79,4 @@ And here's what we've been doing previously:
 {% endfor %}
 </ul>
 
-<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="rss-subscribe">Subscribe <a data-goatcounter-click="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
