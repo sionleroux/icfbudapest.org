@@ -14,8 +14,3 @@ logo: /img/icfbudapest.png # URL to site logo
 
 # Build settings
 markdown: kramdown
-
-# FTP settings
-ftp_host: 'ftp.sinisterstuf.org'
-ftp_dir: ''
-ftp_passive: false
