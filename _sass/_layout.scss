@@ -363,6 +363,13 @@ $on-laptop:        800px;
     }
 }
 
+.photo {
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid theme.$grey-color-dark;
+}
+
 .photo-attribution {
     background-color: theme.$grey-color-dark;
     font-size: 14px;
@@ -371,6 +378,7 @@ $on-laptop:        800px;
     padding-bottom: 0.5em;
     text-align: center;
     max-width: 70%;
+    height: auto;
     margin: 1rem auto;
     border: 2px solid theme.$grey-color-dark;
     @include media-query($on-mobile) {

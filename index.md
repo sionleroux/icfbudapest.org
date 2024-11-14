@@ -21,6 +21,7 @@ About Us
 from around 7 PM till 9-ish**
 
 ![]({{ site.url }}/assets/ICFB2024.webp)
+{:.photo width='740' height='556'}
 
 Why
 ---
