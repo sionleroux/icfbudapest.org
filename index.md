@@ -52,11 +52,7 @@ Protestants, Reformed to Charismatic, or anywhere in between.
 
 Where
 -----
-We usually meet on Friday evenings at 6:00pm at
-[Forum](https://www.facebook.com/theForumBudapest){: data-goatcounter-click='ext-theforum'}
-([Szigony u. 16a, 1083 Budapest](https://goo.gl/maps/PJnoKsb26z92){: data-goatcounter-click='ext-maps.google.com'}).
-If you'd like to join us, please send us an email and we will give you
-the exact directions.  We look forward to meeting you!
+We usually meet on Friday evenings at 7:00 pm at Danny’s place (near Corvin negyed). But the place might alternate, so please check our weekly newsletter. We look forward to meeting you!
 
 Blog
 ====
