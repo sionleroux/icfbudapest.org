@@ -20,6 +20,8 @@ About Us
 **Come join us for our main meeting which takes place on Friday evenings
 from 6 PM until 8:30 PM**
 
+![ICFB 2024]({{ site.url }}/assets/ICFB2024.jpg)
+
 Why
 ---
 The Purpose of our Christian Fellowship is to provide a nurturing
