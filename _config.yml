@@ -14,3 +14,6 @@ logo: /img/icfbudapest.png # URL to site logo
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
