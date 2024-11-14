@@ -17,8 +17,8 @@ About Us
 
 {{ site.description }}
 
-**Come join us for our main meeting which takes place on Friday evenings
-from 6 PM until 8:30 PM**
+**Come join us for our main meeting which takes place on Fridays
+from around 7 PM till 9-ish**
 
 ![ICFB 2024]({{ site.url }}/assets/ICFB2024.jpg)
 
