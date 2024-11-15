@@ -17,3 +17,8 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [year, month, day]
+  layout: archive
