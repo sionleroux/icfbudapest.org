@@ -1,6 +1,6 @@
 /*
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://gc.zgo.at; connect-src https://icfb.goatcounter.com/count; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; img-src 'self' https://i.creativecommons.org; connect-src https://i.creativecommons.org/l/by-sa/4.0/88x31.png;
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://gc.zgo.at; connect-src https://icfb.goatcounter.com/count; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; img-src 'self' https://licensebuttons.net;
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
   Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
