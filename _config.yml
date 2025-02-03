@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   for worship, prayer, Bible study, and service, as well as to encourage each
   other.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://icfbudapest.org" # the base hostname & protocol for your site
+url: "https://www.icfbudapest.org" # the base hostname & protocol for your site
 timezone: Europe/Budapest
 logo: /img/icfbudapest.png # URL to site logo
 
