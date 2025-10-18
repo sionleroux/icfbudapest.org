@@ -17,8 +17,8 @@ About Us
 
 {{ site.description }}
 
-**Come join us for our main meeting which takes place on Fridays
-from around 7 PM till 9-ish**
+**Come join us for our main meeting which takes place on weekly basis,
+please subscribe to our newsletter (above) for up-to-date info.**
 
 ![]({{ site.url }}/assets/ICFB2024.webp)
 {:.photo width='740' height='556'}
