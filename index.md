@@ -5,9 +5,9 @@ layout: default
 Join Us
 =======
 
-We'll send out a newsletter every week to tell you when and where we're
-meeting.  It's our main form of communication, so sign up if you're
-interested in joining.
+We'll send out a newsletter to tell you when and where we're meeting.
+It's our main form of communication, so sign up if you're interested in
+joining.
 
 {% include signup-form.html %}
 
@@ -17,7 +17,7 @@ About Us
 
 {{ site.description }}
 
-**Come join us for our main meeting which takes place on weekly basis,
+**Come join us for our main meeting which takes place semi-regularly,
 please subscribe to our newsletter (above) for up-to-date info.**
 
 ![]({{ site.url }}/assets/ICFB2024.webp)
